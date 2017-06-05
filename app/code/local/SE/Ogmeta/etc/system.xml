@@ -1,0 +1,45 @@
+<config>
+    <sections>
+        <design translate="label">
+            <groups>
+                <og_meta_head translate="label" module="se_ogmeta">
+                    <label>OG Meta Head</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>30</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <og_default_image translate="label comment">
+                            <label>OG Meta Default Image</label>
+                            <comment>Allowed file types: PNG, GIF, JPG, JPEG. Not all browsers support all these formats!</comment>
+                            <frontend_type>image</frontend_type>
+                            <backend_model>se_ogmeta/system_config_backend_image_metaimage</backend_model>
+                            <base_url type="media" scope_info="1">ogmeta</base_url>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </og_default_image>
+                        <og_default_title translate="label">
+                            <label>OG Meta Default Title</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </og_default_title>
+                        <og_default_description translate="label">
+                            <label>OG Meta Default Description</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </og_default_description>
+                    </fields>
+                </og_meta_head>
+            </groups>
+        </design>
+    </sections>
+</config>

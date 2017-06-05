@@ -1,7 +1,12 @@
 # magento-ogmeta
+
 Magento 1 module to add basic Open Graph Metadata http://ogp.me/ 
 
 Instead of manually adding the code in the head.phtml, you could do it in a module which is much cleaner and flexible.
+
+This extension works both on product page and category page. 
+
+Usage: unzip it in magento root
 
 # Basic Metadata:
 

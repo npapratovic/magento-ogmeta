@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SE_Ogmeta>
+            <version>0.1.0</version>
+        </SE_Ogmeta>
+    </modules>
+    <global>
+        <blocks>
+            <se_ogmeta>
+                <class>SE_Ogmeta_Block</class>
+            </se_ogmeta>
+        </blocks>
+        <helpers>
+            <se_ogmeta>
+                <class>SE_Ogmeta_Helper</class>
+            </se_ogmeta>
+        </helpers>
+        <models>
+            <se_ogmeta>
+                <class>SE_Ogmeta_Model</class>
+            </se_ogmeta>
+        </models>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <se_ogmeta>
+                    <file>se_og_meta.xml</file>
+                </se_ogmeta>
+            </updates>
+        </layout>
+    </frontend>
+</config>
