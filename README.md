@@ -13,17 +13,15 @@ To turn your web pages into graph objects, you need to add basic metadata to you
  - og:url - The canonical URL of your object that will be used as its permanent ID in the graph, e.g., "http://www.imdb.com/title/tt0117500/".
  
  As an example, the following is the Open Graph protocol markup for The Rock on IMDB:
-
+ 
 <html prefix="og: http://ogp.me/ns#">
-<head>
-<title>The Rock (1996)</title>
-<meta property="og:title" content="The Rock" />
-<meta property="og:type" content="video.movie" />
-<meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
-<meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
-...
-</head>
-...
+ <head>
+  <title>The Rock (1996)</title>
+  <meta property="og:title" content="The Rock" />
+  <meta property="og:type" content="video.movie" />
+  <meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
+  <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
+ </head>
 </html>
 
 Use it as you like it
